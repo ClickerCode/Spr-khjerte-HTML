@@ -1,4 +1,4 @@
-var exerciseDiv;
+var exerciseDiv = document.getElementById('exercise');
 
 function showNextExercise() {
     exerciseDiv.innerHTML = `
