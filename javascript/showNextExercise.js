@@ -4,8 +4,8 @@ function showNextExercise() {
     exerciseDiv.innerHTML = `
 
         <p>Er katten er under sofaen?</p>
-        <div class="box2"></div>
-        <div class="picture2">
+        <div class="box"></div>
+        <div class="picture">
             <a target="_blank" href="bilder/oppaa.jpg">
                 <img src="bilder/oppaa.jpg" alt="Oppå" width="500" height="300" />
             </a>
@@ -31,8 +31,8 @@ function showWrong() {
 function showNextExercise2() {
     exerciseDiv.innerHTML = `
 
-    <div class="box3">Er katten over sofaen?</div>
-    <div class="picture3">
+    <div class="box">Er katten over sofaen?</div>
+    <div class="picture">
     <a target="_blank" href="bilder/over.jpg">
         <img src="bilder/over.jpg" alt="Over" width="500" height="300" />
     </a>
@@ -47,8 +47,8 @@ function showNextExercise3() {
     exerciseDiv.innerHTML = `
 
         <p>Sitter katten på høyre side av sofaen?</p>
-        <div class="box2"></div>
-        <div class="picture1">
+        <div class="box"></div>
+        <div class="picture">
            <a target="_blank" href="bilder/hyre.png">
             <img src="bilder/hyre.png" alt="Høyre" width="500" height="300" />
         </a>
@@ -63,8 +63,8 @@ function showNextExercise4() {
     exerciseDiv.innerHTML = `
 
         <p>Er katten under sofaen?</p>
-        <div class="box4"></div>
-        <div class="picture4">
+        <div class="box"></div>
+        <div class="picture">
             <a target="_blank" href="bilder/paa.png">
                 <img src="bilder/paa.png" alt="På" width="500" height="300" />
             </a>
@@ -79,8 +79,8 @@ function showNextExercise5() {
     exerciseDiv.innerHTML = `
 
         <p>Er katten på venstre side av sofaen?</p>
-        <div class="box5"></div>
-        <div class="picture5">
+        <div class="box"></div>
+        <div class="picture">
             <a target="_blank" href="bilder/over.jpg">
                 <img src="bilder/over.jpg" alt="Over" width="500" height="300" />
             </a>
@@ -96,8 +96,8 @@ function showNextExercise6() {
     exerciseDiv.innerHTML = `
 
         <p>Sitter katten på venstre siden av sofaen?</p>
-        <div class="box6"></div>
-        <div class="picture6">
+        <div class="box"></div>
+        <div class="picture">
             <a target="_blank" href="bilder/paavenstre.jpg">
                 <img src="bilder/paavenstre.jpg" alt="Venstre" width="500" height="300" />
             </a>
@@ -112,8 +112,8 @@ function showNextExercise7() {
     exerciseDiv.innerHTML = `
 
         <p>Er katten på høyre side av sofaen?</p>
-        <div class="box7"></div>
-        <div class="picture7">
+        <div class="box"></div>
+        <div class="picture">
             <a target="_blank" href="bilder/under.jpg">
                 <img src="bilder/under.jpg" alt="Under" width="500" height="300" />
             </a>
@@ -128,8 +128,8 @@ function showNextExercise8() {
     exerciseDiv.innerHTML = `
 
         <p>Sitter katten på venstre side av sofaen?</p>
-        <div class="box8"></div>
-        <div class="picture8">
+        <div class="box"></div>
+        <div class="picture">
             <a target="_blank" href="bilder/venstre.png">
                 <img src="bilder/venstre.png" alt="Venstre" width="500" height="300" />
             </a>
