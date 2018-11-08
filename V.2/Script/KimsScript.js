@@ -11,7 +11,7 @@ function showRandomThings() {
     }
 
     else if (randomNumber < 2) {
-        exerciseDiv.innerHTML = `<p>er katten på høyre side av soffaen? <p> <img src="../hyre.png"/> 
+        exerciseDiv.innerHTML = `<p>er katten på høyre side i soffaen? <p> <img src="../hyre.png"/> 
                                  <button class="button" onclick = "showCorrect()"> Riktig</button >
                                  <button class="button2" onclick="showWrong()" >Galt</button>
                                  <button onclick="showRandomThings()">Neste oppgave</button>`;
@@ -20,8 +20,8 @@ function showRandomThings() {
 
     else if (randomNumber < 3) {
         exerciseDiv.innerHTML = `<p>er katten på soffaen? <p> <img src="../over.jpg"/> 
-                                 <button class="button" onclick = "showCorrect()" > Riktig</button >
-                                 <button class="button2" onclick="showWrong()" >Galt</button>
+                                 <button class="button" onclick = "showWrong()" > Riktig</button >
+                                 <button class="button2" onclick="showCorrect()" >Galt</button>
                                  <button onclick="showRandomThings()">Neste oppgave</button>`;
 
     }
@@ -53,11 +53,19 @@ function showRandomThings() {
     }
 
     else if (randomNumber < 7) {
-        exerciseDiv.innerHTML = `<p>her katten på høyre siden av soffaen? <p> <img src="../venstre.png"/> 
-                                 <button class="button" onclick = "showCorrect()"> Riktig</button > 
-                                 <button class="button2" onclick="showWrong()" >Galt</button>
+        exerciseDiv.innerHTML = `<p>her katten på høyre siden i soffaen? <p> <img src="../venstre.png"/> 
+                                 <button class="button" onclick = "showWrong()"> Riktig</button > 
+                                 <button class="button2" onclick="showCorrect()" >Galt</button>
                                  <button onclick="showRandomThings()">Neste oppgave</button>`;
 
 
     }
 }
+    function showCorrect() {
+        exerciseDiv.innerHTML += `
+            <div class="alertRight">Congratulation! You answered right!</div>`;
+    }
+    function showWrong() {
+        exerciseDiv.innerHTML += `
+            <div class="alertWrong">Sorry.You answered wrong.</div> `;
+    }
